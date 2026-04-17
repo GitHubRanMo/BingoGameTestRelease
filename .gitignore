@@ -100,3 +100,10 @@ InitTestScene*.unity*
 
 
 /[Aa]ssets/StreamingAssets/
+
+# 忽略 Firebase 平台二进制文件
+/Assets/Firebase/Plugins/x86_64/
+/Assets/Firebase/Plugins/Android/
+/Assets/Firebase/Plugins/iOS/
+*.bundle
+*.so
